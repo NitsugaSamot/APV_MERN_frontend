@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter,BrowserRouter, Routes, Route } from 'react-router-dom'
 import AuthLayout from './layout/AuthLayout'
 import RutaProtegida from './layout/RutaProtegida'
 
@@ -17,7 +17,7 @@ import {PacientesProvider} from './context/PacientesProvider'
 function App() {
     
   return (  
-      <BrowserRouter>
+      <HashRouter>
           <AuthProvider>
                 <PacientesProvider>
                     <Routes>
@@ -37,7 +37,7 @@ function App() {
                 </Routes>
             </PacientesProvider>
           </AuthProvider>
-      </BrowserRouter>
+      </HashRouter>
   )
 }
 

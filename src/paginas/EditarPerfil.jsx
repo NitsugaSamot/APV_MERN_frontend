@@ -10,9 +10,7 @@ const EditarPerfil = () => {
     const [alerta, setAlerta ] = useState({})
 
     useEffect(() => {
-        setPerfil(auth)
-
-        
+        setPerfil(auth)      
     }, [auth])
 
     const handleSubmit =async e => {
