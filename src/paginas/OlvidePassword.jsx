@@ -41,7 +41,7 @@ const OlvidePassword = () => {
   return (
     <>
         <div>
-            <h1 className="text-indigo-600 font-black text-6xl">
+            <h1 className="text-green-600 font-black text-6xl">
             Recupera tu Password para Acceder a {''}
             <span className="text-black">tus Pacientes</span> </h1>
         </div>  
@@ -75,7 +75,7 @@ const OlvidePassword = () => {
               <input 
                 type="submit" 
                 value="Recuperar Cuenta"
-                className="bg-indigo-700 w-full py-3 px-10 rounded-xl text-white uppercase font-bold mt-5 hover:cursor-pointer hover:bg-indigo-800 md:w-auto"
+                className="bg-green-700 w-full py-3 px-10 rounded-xl text-white uppercase font-bold mt-5 hover:cursor-pointer hover:bg-green-800 md:w-auto"
               />
             </form>
 

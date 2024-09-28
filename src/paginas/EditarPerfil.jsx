@@ -38,7 +38,7 @@ const EditarPerfil = () => {
 
         <h2 className="font-black text-3xl text-center mt-10">Editar Perfil</h2>
 
-        <p className="text-xl mt-5 mb-10 text-center">Modifica tu {''} <span className="text-indigo-600 font-bold" >Indormación aqui</span></p>
+        <p className="text-xl mt-5 mb-10 text-center">Modifica tu {''} <span className="text-green-600 font-bold" >Indormación aqui</span></p>
 
         <div className="flex justify-center">
             <div className="w-full md:w-1/2 bg-white shadow rounded-lg p-5" >
@@ -115,7 +115,7 @@ const EditarPerfil = () => {
 
                     <input type="submit" 
                            value='Guardar Cambios'
-                           className="bg-indigo-700 px-10 py-3 font-bold text-white rounded-lg uppercase w-full mt-5"
+                           className="bg-green-700 px-10 py-3 font-bold text-white rounded-lg uppercase w-full mt-5"
                     />
                 </form>
             </div>

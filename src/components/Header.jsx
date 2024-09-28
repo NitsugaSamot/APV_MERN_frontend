@@ -1,16 +1,29 @@
 import { Link } from "react-router-dom"
-import useAuth from "../hooks/useAuth"
+import useAuth from "../hooks/useAuth"  
+
 
 const Header = () => {
 
   const {cerrarSesion} = useAuth()
 
   return (
-    <header className='py-10 bg-indigo-600'>
+    <header className='py-10 bg-green-600'>
         <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center">
-            <h1 className="text-2xl font-bold text-indigo-200 text-center">APV- Administrador de Pacientes de {''}
+          <div className="flex">
+          <img
+              src="/assets/img/logo.png"
+              alt="No Image"
+              width={75}
+              height={75}
+            />
+            <h1 className="text-2xl mt-4 font-bold text-green-200 text-center">        
+              Administrador de Pacientes de {''}
             <span className="text-white font-black">Veterinaria</span>
             </h1>
+
+          </div>
+
+
 
             <nav className="flex flex-col items-center lg:flex-row gap-4 mt-5 lg:mt-0">
                 <Link to='/admin' className='text-white text-sm uppercase font-bold'>Pacientes</Link>

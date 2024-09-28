@@ -45,7 +45,7 @@ const CambiarPassword = () => {
 
            <h2 className="font-black text-3xl text-center mt-10">Cambiar Password</h2>
 
-           <p className="text-xl mt-5 mb-10 text-center">Modifica tu {''} <span className="text-indigo-600 font-bold" >Password aqui</span></p>
+           <p className="text-xl mt-5 mb-10 text-center">Modifica tu {''} <span className="text-green-600 font-bold" >Password aqui</span></p>
 
 
            <div className="flex justify-center">
@@ -89,7 +89,7 @@ const CambiarPassword = () => {
                     </div>
                     <input type="submit" 
                            value='Actualizar Password'
-                           className="bg-indigo-700 px-10 py-3 font-bold text-white rounded-lg uppercase w-full mt-5"
+                           className="bg-green-700 px-10 py-3 font-bold text-white rounded-lg uppercase w-full mt-5"
                     />
                 </form>
             </div>
